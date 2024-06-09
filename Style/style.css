@@ -9,7 +9,7 @@ body{
 #display{
     width: 100%;
     padding: 50px;
-    text-align: right;
+    text-align: left;
     font-size: 3rem;
    border: none;
     background-color: hsl(0, 0%, 40%);
