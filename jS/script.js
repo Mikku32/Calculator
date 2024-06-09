@@ -6,7 +6,13 @@ function appendToDisplay(input) {
 }
 
 function calculate() {
-    display.value = eval(display.value);
+    try{
+        display.value = eval(display.value);
+    }
+    catch(err){
+        display.value = "Error";
+        setTimeout(clearDisplay, 1000);
+    }
 }
 
 function clearDisplay() {
